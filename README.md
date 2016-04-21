@@ -6,9 +6,10 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 * Accession records
 * Name records
 * Digital objects (outside the context of archival description)
+
 ### Resource records (multilevel) to-do
 * Migrate from DTD -> schema
-** Validate against schema
-** Remediate schema errors
+* Validate against schema
+* Remediate schema errors
 * Validate against EAD import schematron
-** Remediate schematron errors
+* Remediate schematron errors
