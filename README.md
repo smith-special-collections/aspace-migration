@@ -8,10 +8,11 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 * Digital objects (outside the context of archival description)
 
 ### Resource records (multilevel) to-do
-* Migrate from DTD -> schema (ASAP)
+* [Migrate from DTD -> schema (ASAP)](https://github.com/smith-special-collections/aspace-migration/blob/master/resources/EAD%20fixes%20now/dtd2schema.xsl)
 	* Validate against schema (ASAP)
 	* Remediate schema errors (ASAP)
-		* Update country code and repository code
+		* [Update country code, language code and repository code](https://github.com/smith-special-collections/aspace-migration/blob/master/resources/EAD%20fixes%20now/SchemaCompliance.xsl)
+		* [Add level attributes](https://github.com/smith-special-collections/aspace-migration/blob/master/resources/EAD%20fixes%20now/AddLevelIfNotPresent.xsl)
 * Validate against EAD import schematron
 	* Remediate schematron errors
 	* Move update <note> elements to <odd>
