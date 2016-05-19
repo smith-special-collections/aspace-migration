@@ -40,4 +40,4 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 * Iterate reconciliation
 
 ### Container profiles to do
-* (https://github.com/smith-special-collections/aspace-migration/blob/master/container%20profiles/AddContainerProfiles.py "Post to ArchivesSpace from survey")
+* [Post to ArchivesSpace from survey data](https://github.com/smith-special-collections/aspace-migration/blob/master/container%20profiles/AddContainerProfiles.py)
