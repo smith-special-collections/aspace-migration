@@ -38,3 +38,6 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 * Post name records to ArchivesSpace
 * Merge name records already imported as part of EAD import with existing name records
 * Iterate reconciliation
+
+### Container profiles to do
+* (https://github.com/smith-special-collections/aspace-migration/blob/master/container%20profiles/AddContainerProfiles.py "Post to ArchivesSpace from survey")
