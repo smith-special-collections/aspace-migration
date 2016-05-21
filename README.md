@@ -13,7 +13,7 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 	* Remediate schema errors (ASAP)
 		* [Update country code, language code and repository code](https://github.com/smith-special-collections/aspace-migration/blob/master/resources/EAD%20fixes%20now/SchemaCompliance.xsl)
 		* [Add level attributes](https://github.com/smith-special-collections/aspace-migration/blob/master/resources/EAD%20fixes%20now/AddLevelIfNotPresent.xsl)
-* Validate against EAD import schematron
+* [Validate against EAD import schematron] (https://raw.githubusercontent.com/tcatapano/EAD_Archivespace_Import/master/archivesSpace_consolidated.sch)
 	* Remediate schematron errors
 	* Move update <note> elements to <odd>
 	* Fix extent statements
