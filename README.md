@@ -18,8 +18,8 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 	* Move update <note> elements to <odd>
 	* Fix extent statements
 * Fix elements that will be wonky in ArchivesSpace
-	* Update <subtitle>
-	* De-duplicate series-level <c>s 
+	* Update subtitle
+	* De-duplicate series-level cs 
 	* Think through references
 	* Think through indices
 	
