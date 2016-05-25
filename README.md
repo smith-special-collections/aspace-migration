@@ -22,7 +22,7 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 	* check for nested note elements (i.e., bioghist/bioghist/p)
 	* put @ids and @parents on containers
 	* check publish status / force publish upon import
-	* Currently, <title> and <ref> elements of the same <indexentry> element are imported as separate index records
+	* currently, title and ref elements of the same indexentry element are imported as separate index records
 	* ead / did / physdesc / dimension or physfacet element is loaded twice, once as a Note w/Type=Physical Description and again as a Note with Type=Dimensions. Check and de-dupe.
 	* in the case of multiple unittitles or unitids, behavior is “last wins” rather than “multiple unittitles.” Esp problematic for records with names in multiple languages. Diagnose pre-migration, fix post-migration.
 	* langmaterial/language elements stripped during import. Diagnose pre-migration, fix post-migration.
