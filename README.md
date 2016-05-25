@@ -17,6 +17,16 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 	* Remediate schematron errors
 	* Move update <note> elements to <odd>
 	* Fix extent statements
+* [Fix elements that ArchivesSpace barfs on] (https://github.com/tcatapano/EAD_Archivespace_Import/blob/master/ead_import_issues.md)
+	* change did/note to did/odd
+	* check for nested note elements (i.e., bioghist/bioghist/p)
+	* put @ids and @parents on containers
+	* check publish status / force publish upon import
+	* Currently, <title> and <ref> elements of the same <indexentry> element are imported as separate index records ¯\_(ツ)_/¯
+	* ead/did/physdesc/dimension|physfacet element is loaded twice, once as a Note w/Type=Physical Description and again as a Note with Type=Dimensions. Check and de-dupe.
+	* in the case of multiple unittitles or unitids, behavior is “last wins” rather than “multiple unittitles.” Esp problematic for records with names in multiple languages. Diagnose pre-migration, fix post-migration.
+	* langmaterial/language elements stripped during import. Diagnose pre-migration, fix post-migration.
+	* Can’t have notes over 65k. Diagnose pre-migration, fix post-migration.
 * Fix elements that will be wonky in ArchivesSpace
 	* Update subtitle
 	* De-duplicate series-level cs 
