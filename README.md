@@ -34,6 +34,9 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 * Fix stuff that looks bad
 	* Update circa and undated
 	* Change from all-caps to title case
+* Fix problems
+	* Update copyright statement
+	* DACS capitalization for C/collection, P/papers, R/records
 * Stuff to test
 	* Tables
 	* Which files have
@@ -41,7 +44,6 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 		* tables
 		* indices
 		* DACS single-level minimum
-		* DACS capitalization for C/collection, P/papers, R/records
 	
 ### Resource records (single-level) to-do
 * Map InMagic records to Resource schema
