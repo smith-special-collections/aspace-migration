@@ -30,8 +30,18 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 * Fix elements that will be wonky in ArchivesSpace
 	* Update subtitle
 	* De-duplicate series-level cs 
-	* Think through references
-	* Think through indices
+	* Delete references
+* Fix stuff that looks bad
+	* Update circa and undated
+	* Change from all-caps to title case
+* Stuff to test
+	* Tables
+	* Which files have
+		* chronlist
+		* tables
+		* indices
+		* DACS single-level minimum
+		* DACS capitalization for C/collection, P/papers, R/records
 	
 ### Resource records (single-level) to-do
 * Map InMagic records to Resource schema
