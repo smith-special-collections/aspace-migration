@@ -35,6 +35,7 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 	* Properly encode series numbers from unittitle to level, unitid
 	* Spell out manuscript tradition abbreviations
 	* De-nest unitdate from unittitle
+	* Delete trailing commas on unittitle
 * Stuff to test
 	* Tables
 	* Which files have
