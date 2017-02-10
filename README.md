@@ -62,12 +62,17 @@ Files, tools, and plans for bringing legacy data into ArchivesSpace at Smith
 * Post name records to ArchivesSpace
 * Merge name records already imported as part of EAD import with existing name records
 
+### Top containers to do
+* Identify multi-level resources that re-number at each series; add fauxcodes.
+
 ### Container profiles to do
 * [Post to ArchivesSpace from survey data](https://github.com/smith-special-collections/aspace-migration/blob/master/container%20profiles/AddContainerProfiles.py)
 
 ### Records not described as part of multi-level description
 * Halfway house for image records
 * Migrate A/V and electronic records table to proper media log
+* Transform objects database into finding aid
+* Transform HTML oral history collections into finding aids
 
 ### Normalization and reconciliation
 * Normalize dates (timetwister or Bentley method)
